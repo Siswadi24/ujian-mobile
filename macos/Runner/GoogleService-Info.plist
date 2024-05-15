@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>37262681762-1t03i6lnljd71md827s4nn6pa7lse3bq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.37262681762-1t03i6lnljd71md827s4nn6pa7lse3bq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDOtcFjkYWR7tX8QjBK9ZqEhw2Q3lICm38</string>
+	<key>GCM_SENDER_ID</key>
+	<string>37262681762</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.flutterUjianLearningx.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>hahu-hoheng-fitfun</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hahu-hoheng-fitfun.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:37262681762:ios:f49582b94342828996d9fb</string>
+</dict>
+</plist>

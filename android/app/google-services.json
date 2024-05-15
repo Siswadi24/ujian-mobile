@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "37262681762",
+    "project_id": "hahu-hoheng-fitfun",
+    "storage_bucket": "hahu-hoheng-fitfun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37262681762:android:5a7dcdcbe4ff8df096d9fb",
+        "android_client_info": {
+          "package_name": "com.example.chapter10_mini_projek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37262681762-a9uj05p313l95cbos8lkhefa5u9kg57c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2r9-rWQFbmSo4S9_H9yk5e_7qOHHw75g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37262681762-a9uj05p313l95cbos8lkhefa5u9kg57c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "37262681762-254lsqsc8vben5cjepe9use4ev4f90mp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hahuHohengFitfun"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37262681762:android:962c9b4376e87be396d9fb",
+        "android_client_info": {
+          "package_name": "com.example.flutter_ujian_learningx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37262681762-a9uj05p313l95cbos8lkhefa5u9kg57c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2r9-rWQFbmSo4S9_H9yk5e_7qOHHw75g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37262681762-a9uj05p313l95cbos8lkhefa5u9kg57c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "37262681762-254lsqsc8vben5cjepe9use4ev4f90mp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hahuHohengFitfun"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37262681762:android:27f8feaf9940574096d9fb",
+        "android_client_info": {
+          "package_name": "com.example.hahu_hoheng_fitfun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37262681762-a9uj05p313l95cbos8lkhefa5u9kg57c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2r9-rWQFbmSo4S9_H9yk5e_7qOHHw75g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37262681762-a9uj05p313l95cbos8lkhefa5u9kg57c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "37262681762-254lsqsc8vben5cjepe9use4ev4f90mp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hahuHohengFitfun"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37262681762:android:f7e65b4f6f1e063196d9fb",
+        "android_client_info": {
+          "package_name": "com.example.homework2_chap6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37262681762-a9uj05p313l95cbos8lkhefa5u9kg57c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2r9-rWQFbmSo4S9_H9yk5e_7qOHHw75g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37262681762-a9uj05p313l95cbos8lkhefa5u9kg57c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "37262681762-254lsqsc8vben5cjepe9use4ev4f90mp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hahuHohengFitfun"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
