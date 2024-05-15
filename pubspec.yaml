@@ -16,6 +16,7 @@ dependencies:
   shared_preferences: 2.2.3
   image_picker: ^1.1.1
   cached_network_image: ^3.3.1
+  flutter_native_splash: ^2.4.0
   get: 4.6.6
   flutter: 
     sdk: flutter
@@ -25,9 +26,23 @@ dev_dependencies:
   flutter_test: 
     sdk: flutter
 
+flutter_native_splash:
+  color: "#F8F8F8"
+  image: assets/images/fitfun_logo.png
+  android: true
+  ios: true
+  web: false
+
+  android_12:
+    image: assets/images/fitfun_logo.png
+    icon_background_color: "#F8F8F8"
+    image_dark: assets/images/fitfun_logo.png
+    icon_background_color_dark: "#F8F8F8"
+
 flutter: 
   uses-material-design: true
   assets: 
-    - assets/
+    - assets/images/
     - assets/svg/
+    - assets/images/isoStock.jpg
 

@@ -25,15 +25,21 @@ class RegisterView extends GetView<RegisterController> {
                       fontSize: 30, fontWeight: FontWeight.bold),
                 ),
               ),
-              Text(
-                'Welcome new User',
-                style: GoogleFonts.nunito(
-                    fontSize: 15, fontWeight: FontWeight.w400),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Text(
+                  'Welcome new User',
+                  style: GoogleFonts.nunito(
+                      fontSize: 15, fontWeight: FontWeight.w400),
+                ),
               ),
-              Text(
-                'Please create your account hire ',
-                style: GoogleFonts.nunito(
-                    fontSize: 15, fontWeight: FontWeight.w500),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: Text(
+                  'Please create your account hire ',
+                  style: GoogleFonts.nunito(
+                      fontSize: 15, fontWeight: FontWeight.w500),
+                ),
               ),
               const FormRegister(),
             ],
