@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_ujian_learningx/app/widgets/home/add_dialog.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -102,64 +103,7 @@ class HomeView extends GetView<HomeController> {
           //Jika ada yang kosong, muncul pesan yang menunjukkan bahwa semua kolom harus diisi
           //Jika tidak ada yang kosong, muncul pesan yang menunjukkan bahwa data yang diinputkan sudah benar
           Get.dialog(
-            SingleChildScrollView(
-              child: AlertDialog(
-                title: const Text('Add Data'),
-                content: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    //Menambahkan Container untuk menampung form input berupa foto.
-                    Row(
-                      children: [
-                        Container(
-                          width: 100,
-                          height: 100,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
-                            color: Colors.grey,
-                          ),
-                          child: const Icon(Icons.add_a_photo),
-                        ),
-                        const SizedBox(width: 15),
-                        const Text('Pilih Foto'),
-                      ],
-                    ),
-                    const TextField(
-                      // controller: controller.namaBarangController,
-                      decoration: InputDecoration(labelText: 'Nama'),
-                    ),
-                    const TextField(
-                      // controller: controller.hargaController,
-                      decoration: InputDecoration(labelText: 'Harga'),
-                    ),
-                    const TextField(
-                      // controller: controller.tahunBeliController,
-                      decoration: InputDecoration(labelText: 'Tahun Beli'),
-                    ),
-                    TextFormField(
-                      // controller: controller.deskripsiController,
-                      decoration: const InputDecoration(labelText: 'Deskripsi'),
-                      maxLines: 5,
-                    ),
-                  ],
-                ),
-                actions: [
-                  TextButton(
-                    onPressed: () {
-                      Get.back();
-                    },
-                    child: const Text('Cancel'),
-                  ),
-                  TextButton(
-                    onPressed: () {
-                      // controller.addData();
-                      Get.back();
-                    },
-                    child: const Text('Save'),
-                  ),
-                ],
-              ),
-            ),
+            const AddDialog(),
           );
         },
         child: const Icon(Icons.add),
